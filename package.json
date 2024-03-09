@@ -48,6 +48,7 @@
   "devDependencies": {
     "@jest/types": "^29.6.3",
     "@types/amqplib": "^0.10.3",
+    "@types/bcrypt": "^5.0.2",
     "@types/bcryptjs": "^2.4.5",
     "@types/compression": "^1.7.4",
     "@types/cors": "^2.8.15",
