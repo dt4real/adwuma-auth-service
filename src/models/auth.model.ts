@@ -1,6 +1,6 @@
 import { sequelize } from '@auth/database';
 import { IAuthDocument } from '@dt4real/adwuma-common';
-import { compare, hash } from 'bcryptjs';
+import { compare, hash } from 'bcrypt';
 import { DataTypes, Model, ModelDefined, Optional } from 'sequelize';
 
 const SALT_ROUND = 10;
