@@ -14,7 +14,7 @@ export async function gigById(index: string, gigId: string): Promise<ISellerGig>
 		});
 		return result._source as ISellerGig;
 	} catch (error) {
-		log.log('error', 'AuthService searchService getDocumentById() method error:', error);
+		log.log('error', 'AuthService searchService gigById() method error:', error);
 		return {} as ISellerGig;
 	}
 }
