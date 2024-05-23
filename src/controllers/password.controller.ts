@@ -36,7 +36,7 @@ export async function forgotPassword(req: Request, res: Response): Promise<void>
   };
   await publishDirectMessage(
     authChannel,
-    'jobber-email-notification',
+    'adwuma-email-notification',
     'auth-email',
     JSON.stringify(messageDetails),
     'Forgot password message sent to notification service.'
@@ -67,7 +67,7 @@ export async function resetPassword(req: Request, res: Response): Promise<void> 
   };
   await publishDirectMessage(
     authChannel,
-    'jobber-email-notification',
+    'adwuma-email-notification',
     'auth-email',
     JSON.stringify(messageDetails),
     'Reset password success message sent to notification service.'
@@ -94,7 +94,7 @@ export async function changePassword(req: Request, res: Response): Promise<void>
   };
   await publishDirectMessage(
     authChannel,
-    'jobber-email-notification',
+    'adwuma-email-notification',
     'auth-email',
     JSON.stringify(messageDetails),
     'Password change success message sent to notification service.'

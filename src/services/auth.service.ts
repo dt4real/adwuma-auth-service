@@ -23,7 +23,7 @@ export async function createAuthUser(data: IAuthDocument): Promise<IAuthDocument
     };
     await publishDirectMessage(
       authChannel,
-      'jobber-buyer-update',
+      'adwuma-buyer-update',
       'user-buyer',
       JSON.stringify(messageDetails),
       'Buyer details sent to buyer service.'

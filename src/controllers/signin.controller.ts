@@ -43,7 +43,7 @@ export async function read(req: Request, res: Response): Promise<void> {
     };
     await publishDirectMessage(
       authChannel,
-      'jobber-email-notification',
+      'adwuma-email-notification',
       'auth-email',
       JSON.stringify(messageDetails),
       'OTP email message sent to notification service.'
